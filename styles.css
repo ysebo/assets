@@ -1,0 +1,131 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url('./img/background.jpg') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.flight-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+
+    padding: 30px;
+    width: 400px; 
+    height: 400px;
+}
+
+.flight-info {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0 30px;
+    
+    
+}
+.flight-info div {
+    
+    text-align: left; 
+    margin: 3px; 
+}
+.cities {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 30px;
+    padding: 0 36px;
+}
+
+.city {
+    text-align: center;
+
+}
+
+.city h2 {
+    font-size: 40px;
+    font-weight: 900; 
+    font-family: Arial, sans-serif;
+    color: #3b8acf;
+}
+
+.city p {
+    font-size: 14px;
+    color: #888;
+}
+.separator{
+    width: 15px;
+    border: none;
+    height: 2px;
+    background-color: #407cff4f; 
+    
+}
+
+.flight-info div {
+    text-align: center;
+}
+
+.flight-info h4 {
+    font-size: 12px;
+    font-weight: bold;
+    color: #888;
+}
+
+.flight-info p {
+    font-size: 17px;
+    font-weight: bold;
+    color: #000000;
+}
+
+.passenger-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 10px;
+
+}
+.passenger-details h4{
+    font-size: 17px;
+    color:#888;
+}
+.passenger-details p {
+    font-size: 16px;
+    line-height: 1.2;
+    color: #000000;
+    font-weight: bold;
+}
+
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.left-side div {
+    margin-bottom: 10px;
+}
+
+.qr-code {
+    display: flex;
+    justify-content: center;
+    margin-top: -12px;
+} 
+
+.qr-code img {
+    width: 150px;
+    height: 150px;
+}
